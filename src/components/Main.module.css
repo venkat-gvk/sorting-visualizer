@@ -1,0 +1,17 @@
+.Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Main__container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.inputArray {
+  background-color: pink;
+  margin-right: 2px;
+}

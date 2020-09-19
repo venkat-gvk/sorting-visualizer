@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+.NavBar {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 1rem;
+  background-color: rgb(198, 236, 198);
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+}
+.heading {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  position: relative;
+  top: 12px;
+}
+
+.navigation {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+}
+
+.s {
+  margin-right: 1.5rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.button {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  border-radius: 3px;
+  border: none;
+  background-color: lightcoral;
+}
+
+.button:hover {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(170, 91, 91);
+  transform: scale(1.1);
+}
+
+.disabled {
+  font-family: "Montserrat", sans-serif;
+  opacity: 0.5;
+  color: white;
+  outline: none;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(170, 91, 91);
+  pointer-events: none;
+}
