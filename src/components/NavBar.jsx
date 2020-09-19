@@ -8,8 +8,6 @@ const NavBar = props => {
   const [speed, setSpeed] = useState(798.5);
   const { setInputArray, sort } = props;
 
-  console.log(speed);
-
   const handleInputRange = e => {
     setInputRange(e.target.value);
   };
